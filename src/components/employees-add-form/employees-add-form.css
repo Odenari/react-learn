@@ -1,0 +1,23 @@
+.app-add-form {
+	margin-top: 30px;
+	padding: 25px;
+	background-color: var(--bgcolor);
+;
+	border-radius: 15px 15px 30px rgba(0, 0, 0, .15);
+	color:#fff;
+}
+
+.add-form {
+	margin-top: 20px;
+}
+
+.add-form input {
+	width: 350px;
+	margin-right: 20px;
+}
+
+/* this rule will hide defalut arrows in input type="number" */
+.add-form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button  {
+	appearance: none;
+}
